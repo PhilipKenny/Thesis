@@ -2,9 +2,9 @@
 So this code began as a modification of the OpenCV2.3.1 implementation of SIFT.
 Originally all modified methods were collected in the 'pk' namespace to prevent
 naming collisions with the OpenCV methods and classes. Eventually the growing
-code led to a lot of separate classes for different methods. Those classes tend 
-to be self containing of all the methods they need and obviously don't suffer 
-from naming collisions. The result is that most methods have their own methods
+code led to a lot of separate classes for different detection methods. Those 
+classes tend to be self contained with all the methods they need and don't suffer 
+from naming collisions. The result is that most classes have their own methods
 but also use functions from namespace pk. So if you can't find the code you're 
 looking for, look in the pk.hpp header file.
 
